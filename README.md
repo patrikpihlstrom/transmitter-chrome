@@ -5,7 +5,7 @@
 Adds an item to the right-click link context menu that sends a magnet link to your transmission server.
 
 ### Installation ###
-It's on the chrome web store :)
+It's on the [chrome web store](https://chrome.google.com/webstore/detail/transmitter/pmeodbpiabolghlcfppieefdnmokeang?utm_source=plus) :)
 
 ### Usage ###
 
