@@ -37,8 +37,11 @@ function transmit(info, tab) {
 	});
 }
 
-chrome.contextMenus.create({
-	title: "transmit", 
-	contexts:["link"], 
-	onclick: transmit,
-});
+if (typeof chrome.contextMenus != 'undefined') {
+	chrome.contextMenus.create({
+		title: "transmit", 
+		contexts:["link"], 
+		onclick: transmit,
+	});
+}
+

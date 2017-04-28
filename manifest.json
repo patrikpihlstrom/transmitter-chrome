@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Transmitter",
 	"description": "This extension will send magnet links to your transmission server",
-	"version": "0.0.0.1",
+	"version": "0.0.0.2",
 	"options_page": "html/options.html",
 	"background": {
 		"scripts": ["js/lib/jquery.min.js", "js/transmitter.js"]
@@ -19,8 +19,7 @@
 		{
 			"matches": ["<all_urls>"],
 			"js": [
-				"js/lib/jquery.min.js",
-				"js/transmitter.js"
+				"js/lib/jquery.min.js"
 			]
 		}
 	],
